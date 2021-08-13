@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('oswald.woff') format('woff');
+         url('static/fonts/oswald.woff') format('woff');
   }
   
   @font-face {
@@ -12,7 +12,7 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('coda.woff') format('woff'); 
+         url('static/fonts/coda.woff') format('woff'); 
   }
 
 * {font-family: 'Oswald', sans-serif;} 
