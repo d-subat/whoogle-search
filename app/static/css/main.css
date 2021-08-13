@@ -3,19 +3,21 @@
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
-    src: local(''),
-         url('static/fonts/oswald.woff') format('woff');
+    src: url('static/fonts/oswald.woff') format('woff');
   }
   
   @font-face {
-    font-family: 'Oswald';
+    font-family: 'Coda';
     font-style: normal;
     font-weight: 400;
-    src: local(''),
-         url('static/fonts/coda.woff') format('woff'); 
+    src: url('static/fonts/coda.woff') format('woff'); 
   }
 
-* {font-family: 'Oswald', sans-serif;} 
+* {font-family: "Oswald";} 
+
+.kCrYT {
+    padding: 0px 16px !important;
+}
 
 body {
   max-width: unset !important;
@@ -26,10 +28,10 @@ body {
   box-shadow: inset 0 0 0 2px #666;
   border: 1px solid #000 !important;
 }
-.logo-container svg {
+.logo-container svg , .logo-link svg {
   display: none;
 }
-.logo-container::before {
+.logo-container::before , .logo-link::before {
     content: "aggl";
     font-family: "Coda";
     font-size: 5em;
