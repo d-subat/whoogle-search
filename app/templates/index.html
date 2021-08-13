@@ -31,17 +31,19 @@
 		font-family: 'Oswalda';
 		font-style: normal;
 		font-weight: 400;
-		src: url('./static/fonts/oswald.woff') format('woff');
+		src: url('./static/fonts/oswald.woff') format('woff'),
+		     url('./static/fonts/oswald.woff2') format('woff2');
 		}
 		
 		@font-face {
 		font-family: 'Coda';
 		font-style: normal;
 		font-weight: 400;
-		src: url('./static/fonts/coda.woff') format('woff'); 
+		src: url('./static/fonts/coda.woff') format('woff'),
+		     url('./static/fonts/coda.woff2') format('woff2'); 
 		}
 		
-		* {font-family: "Oswald","Oswalda";} 
+		* {font-family: "Oswald","Oswalda" !important;} 
 		
 		</style>
 		{% if config.theme  %}
