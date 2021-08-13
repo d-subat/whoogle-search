@@ -1,5 +1,19 @@
 /* aggl style start */
-
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('oswald.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('coda.woff') format('woff'); 
+  }
 
 * {font-family: 'Oswald', sans-serif;} 
 
