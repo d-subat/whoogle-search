@@ -28,10 +28,10 @@ body {
   box-shadow: inset 0 0 0 2px #666;
   border: 1px solid #000 !important;
 }
-.logo-container svg , .logo-link svg {
+.logo-container svg , div .logo-link svg {
   display: none;
 }
-.logo-container::before , .logo-link::before {
+.logo-container::before , div .logo-link::before {
     content: "aggl";
     font-family: "Coda";
     font-size: 5em;
@@ -49,7 +49,7 @@ body {
     color: transparent;
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.5);
 }
-.logo-container {
+.logo-container, div .logo-link {
   position: relative;
 }
 #search-submit {
