@@ -1,169 +1,206 @@
 body {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
+/* aggl style start */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
+
+* {font-family: Oswald, sans-serif;} 
+
+body {
+  max-width: unset !important;
+  margin: 2em !important;
+}
+#search-bar {
+
+  box-shadow: inset 0 0 0 2px #666;
+  border: 1px solid #000 !important;
+}
+.logo-container svg {
+  display: none;
+}
+.logo-container::before {
+  content: "aggl";
+  font-size: 3em;
+  top: -100%;
+  right: 50%;
+  transform: translate(50%, -100%);
+  position: absolute;
+}
+.logo-container {
+  position: relative;
+}
+#search-submit {
+  background-image: linear-gradient(to bottom, #666, #000, #333) !important;
+  
+}
+
+/* aggl style end */
+
+
 .logo {
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding-bottom: 10px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .logo-container {
-    max-height: 500px;
+  max-height: 500px;
 }
 
 .home-search {
-    background: transparent !important;
-    border: 3px solid;
+  background: transparent !important;
+  border: 3px solid;
 }
 
 .search-container {
-    background: transparent !important;
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 600px;
-    z-index: 15;
+  background: transparent !important;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  z-index: 15;
 }
 
 .search-items {
-    width: 100%;
-    position: relative;
-    display: flex;
+  width: 100%;
+  position: relative;
+  display: flex;
 }
 
 #search-bar {
-    background: transparent !important;
-    width: 100%;
-    padding: 5px;
-    height: 40px;
-    outline: none;
-    font-size: 24px;
-    border-radius: 10px 10px 0 0;
-    max-width: 600px;
-    background: rgba(0, 0, 0, 0);
+  background: transparent !important;
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+  outline: none;
+  font-size: 24px;
+  border-radius: 10px 10px 0 0;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0);
 }
 
 #search-submit {
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 20px;
-    align-content: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 0 0 10px 10px;
-    max-width: 600px;
-    -webkit-appearance: none;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 0 0 10px 10px;
+  max-width: 600px;
+  -webkit-appearance: none;
 }
 
 .config-div {
-    padding: 5px;
+  padding: 5px;
 }
 
 button::-moz-focus-inner {
-    border: 0;
+  border: 0;
 }
 
 .collapsible {
-    outline: 0;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    border-radius: 10px 10px 0 0;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px 10px 0 0;
 }
 
 .collapsible:after {
-    content: '\002B';
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+  content: "\002B";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
 }
 
 .active:after {
-    content: "\2212";
+  content: "\2212";
 }
 
 .content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border-radius: 0 0 10px 10px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-radius: 0 0 10px 10px;
 }
 
 .open {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 footer {
-    position: fixed;
-    bottom: 0%;
-    text-align: center;
-    width: 100%;
-    z-index: 10;
+  position: fixed;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
 }
 
 .info-text {
-    font-style: italic;
-    font-size: 12px;
+  font-style: italic;
+  font-size: 12px;
 }
 
 #config-style {
-    resize: none;
-    overflow-y: scroll;
-    width: 100%;
-    height: 100px;
+  resize: none;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100px;
 }
 
 .whoogle-logo {
-    display: none;
+  display: none;
 }
 
 .whoogle-svg {
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding-bottom: 10px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .autocomplete {
-    position: relative;
-    display: inline-block;
-    width: 100%;
+  position: relative;
+  display: inline-block;
+  width: 100%;
 }
 
 .autocomplete-items {
-    position: absolute;
-    border-bottom: none;
-    border-top: none;
-    z-index: 99;
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
 
-    /*position the autocomplete items to be the same width as the container:*/
-    top: 100%;
-    left: 0;
-    right: 0;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
 }
 
 .autocomplete-items div {
-    padding: 10px;
-    cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
 }
 
 details summary {
-    padding: 10px;
-    font-weight: bold;
+  padding: 10px;
+  font-weight: bold;
 }

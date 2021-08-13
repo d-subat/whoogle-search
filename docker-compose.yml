@@ -38,6 +38,6 @@ services:
       #- WHOOGLE_ALT_RD=libredd.it
       #- WHOOGLE_ALT_TL=lingva.ml
     #env_file: # Alternatively, load variables from whoogle.env
-      #- whoogle.env
+      - whoogle.env
     ports:
       - 5000:5000
