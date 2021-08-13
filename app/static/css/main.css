@@ -1,16 +1,12 @@
-body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
-
 /* aggl style start */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Coda&display=swap'); 
 
-* {font-family: Oswald, sans-serif;} 
+* {font-family: 'Oswald', sans-serif;} 
 
 body {
   max-width: unset !important;
-  margin: 2em !important;
+  margin: 2em !important; 
 }
 #search-bar {
 
@@ -21,12 +17,22 @@ body {
   display: none;
 }
 .logo-container::before {
-  content: "aggl";
-  font-size: 3em;
-  top: -100%;
-  right: 50%;
-  transform: translate(50%, -100%);
-  position: absolute;
+    content: "aggl";
+    font-family: "Coda";
+    font-size: 5em;
+    top: -100%;
+    right: 50%;
+    transform: translate(50%, -100%);
+    position: absolute;  
+    letter-spacing: -1px;
+    font-variant: small-caps;
+    font-style: normal;
+    background-clip: text;
+    -webkit-background-clip: text;
+    filter: drop-shadow(3px 2px 3px black);
+    background-image: repeating-linear-gradient(191deg, #00aaff 30%, #80d5ff 55%);
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.5);
 }
 .logo-container {
   position: relative;
