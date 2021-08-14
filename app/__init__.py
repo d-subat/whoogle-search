@@ -69,7 +69,7 @@ app.config['TRANSLATE_URL'] = translate_url
 
 app.config['CSP'] = 'default-src \'self\';' \
                     'frame-src ' + translate_url + ';' \
-                    'manifest-src \'self\';' \
+                    'manifest-src \'self\';' \ 
                     'img-src \'self\' data:;' \
                     'font-src \'self\' \'unsafe-inline\' aggl.herokuapp.com fonts.gstatic.com;' \
                     'style-src \'self\' \'unsafe-inline\' fonts.googleapis.com;' \

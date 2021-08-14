@@ -28,7 +28,7 @@ body {
   box-shadow: inset 0 0 0 2px #666;
   border: 1px solid #000 !important;
 }
-.logo-container svg , div .logo-link svg {
+.logo-container svg  {
   display: none;
 }
 .logo-container::before , div .logo-link::before {
