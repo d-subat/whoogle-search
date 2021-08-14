@@ -71,7 +71,7 @@ app.config['CSP'] = 'default-src \'self\';' \
                     'frame-src ' + translate_url + ';' \
                     'manifest-src \'self\';' \
                     'img-src \'self\' data:;' \
-                    'font-src \'self\' \'unsafe-inline\' fonts.gstatic.com;' \
+                    'font-src \'self\' \'unsafe-inline\' aggl.herokuapp.com fonts.gstatic.com;' \
                     'style-src \'self\' \'unsafe-inline\' fonts.googleapis.com;' \
                     'script-src \'self\';' \
                     'media-src \'self\';' \
