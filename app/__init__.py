@@ -67,11 +67,12 @@ if not translate_url.startswith('http'):
     translate_url = 'https://' + translate_url
 app.config['TRANSLATE_URL'] = translate_url
 
-app.config['CSP'] = 'default-src \'none\';' \
+app.config['CSP'] = 'default-src \'self\';' \
                     'frame-src ' + translate_url + ';' \
                     'manifest-src \'self\';' \
                     'img-src \'self\' data:;' \
-                    'style-src \'self\' \'unsafe-inline\';' \
+                    'font-src \'self\' \'unsafe-inline\'; fonts.gstatic.com' \
+                    'style-src \'self\' \'unsafe-inline\'; fonts.googleapis.com' \
                     'script-src \'self\';' \
                     'media-src \'self\';' \
                     'connect-src \'self\';' \
