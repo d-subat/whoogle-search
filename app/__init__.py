@@ -67,11 +67,11 @@ if not translate_url.startswith('http'):
     translate_url = 'https://' + translate_url
 app.config['TRANSLATE_URL'] = translate_url
 
-app.config['CSP'] = 'default-src \'self\' \'unsafe-inline\' aggl.herokuapp.com ;' \
+app.config['CSP'] = 'default-src \'self\' \'unsafe-inline\' http://aggl.herokuapp.com https://aggl.herokuapp.com ;' \
                     'frame-src ' + translate_url + ';' \
                     'manifest-src \'self\';' \
                     'img-src \'self\' data:;' \
-                    'font-src \'self\' \'unsafe-inline\' aggl.herokuapp.com;' \
+                    'font-src \'self\' \'unsafe-inline\' http://aggl.herokuapp.com https://aggl.herokuapp.com;' \
                     'style-src \'self\' \'unsafe-inline\' ;' \
                     'script-src \'self\' \'unsafe-inline\' ;' \
                     'media-src \'self\' \'unsafe-inline\' ;' \
