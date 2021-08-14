@@ -63,8 +63,8 @@ header {
       right: 50%;
       transform: translate(50%, 0%);
       position: absolute;  
-      letter-spacing: -1px;
-      font-variant: small-caps;
+      letter-spacing: -5px;
+  
       font-style: normal;
       background-clip: text;
       -webkit-background-clip: text;

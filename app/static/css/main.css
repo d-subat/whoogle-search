@@ -39,7 +39,7 @@ body {
     right: 50%;
     transform: translate(50%, -110%);
     position: absolute;  
-    letter-spacing: -1px;
+    letter-spacing: -5px;
     font-style: normal;
     background-clip: text;
     -webkit-background-clip: text;
