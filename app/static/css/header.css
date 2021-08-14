@@ -3,14 +3,14 @@
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
-    src: url('./static/fonts/oswald.woff') format('woff');
+    src: url('../../static/fonts/oswald.woff') format('woff');
   }
   
   @font-face {
     font-family: 'Coda';
     font-style: normal;
     font-weight: 800;
-    src: url('./static/fonts/coda.woff') format('woff'); 
+    src: url('../../static/fonts/coda.woff') format('woff'); 
   }
 
 * {font-family: "Oswald";} 
