@@ -73,8 +73,8 @@ app.config['CSP'] = 'default-src \'self\' \'unsafe-inline\' aggl.herokuapp.com ;
                     'img-src \'self\' data:;' \
                     'font-src \'self\' \'unsafe-inline\' aggl.herokuapp.com;' \
                     'style-src \'self\' \'unsafe-inline\' ;' \
-                    'script-src \'self\';' \
-                    'media-src \'self\';' \
+                    'script-src \'self\' \'unsafe-inline\' ;' \
+                    'media-src \'self\' \'unsafe-inline\' ;' \
                     'connect-src \'self\';' \
                     'form-action \'self\';'
 
