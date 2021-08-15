@@ -62,7 +62,7 @@ body {
 }
 #search-submit {
   background-image: linear-gradient(to bottom, #666, #000, #333) !important;
-  
+  font-variant: small-caps;
 }
 
 /* aggl style end */
