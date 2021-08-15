@@ -52,9 +52,10 @@
                             name="q"
                             spellcheck="false"
                             type="text"
-                            value="🔎 {{ clean_query(query) }}">
+                            value="{{ clean_query(query) }}">
                         <input name="tbm" value="{{ search_type }}" style="display: none">
                         <input type="submit" style="display: none;">
+                        <div class="search-icon" style="position: relative;left: 5px; top: 8px;font-size: 18px;">🔎</div>
                         <div class="sc"></div>
                     </div>
                 </div>
