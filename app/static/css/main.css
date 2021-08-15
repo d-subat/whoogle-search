@@ -1,9 +1,9 @@
 /* aggl style start */
 @font-face {
-    font-family: 'Oswald';
+    font-family: 'abeezee';
     font-style: normal;
     font-weight: 400;
-    src: url('../../static/fonts/oswald.woff') format('woff');
+    src: url('../../static/fonts/abeezee.woff') format('woff');
   }
   
   @font-face {
@@ -13,7 +13,7 @@
     src: url('../../static/fonts/coda.woff') format('woff'); 
   }
 
-* {font-family: "Oswald";} 
+* {font-family: "abeezee";} 
 
 .kCrYT {
     padding: 0px 16px !important;
@@ -50,7 +50,7 @@ body {
 }
 .logo-container::after {
     content: "alternative google whoogle search";
-    font-family: "Oswald";
+    font-family: "abeezee";
     font-size: 1em;
     top: -100%;
     right: 50%;

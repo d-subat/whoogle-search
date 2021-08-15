@@ -1,9 +1,9 @@
 /* aggl style start */
 @font-face {
-    font-family: 'Oswald';
+    font-family: 'abeezee';
     font-style: normal;
     font-weight: 400;
-    src: url('../../static/fonts/oswald.woff') format('woff');
+    src: url('../../static/fonts/abeezee.woff') format('woff');
   }
   
   @font-face {
@@ -13,7 +13,13 @@
     src: url('../../static/fonts/coda.woff') format('woff'); 
   }
 
-* {font-family: "Oswald";} 
+* {font-family: "abeezee";} 
+
+
+body {
+    max-width: unset !important;
+    margin: 2em !important; 
+  }
 
 .kCrYT {
     padding: 0px 16px !important;
